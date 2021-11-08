@@ -62,5 +62,9 @@ public class ArrayListDemo1 {
         fruits.replaceAll(e -> e.toLowerCase());
 
         System.out.println(fruits);
+
+        System.out.println(fruits.equals("mango"));
+
+        System.out.println(fruits.hashCode());
     }
 }
